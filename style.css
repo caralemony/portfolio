@@ -1,0 +1,23 @@
+body {
+
+}
+
+nav {
+  z-index: 2;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 3rem;
+}
+
+li {
+  padding: 1.8rem;
+}
+
+.home, .about, .portfolio, .contact {
+  height: 100vh;
+}
