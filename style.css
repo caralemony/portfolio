@@ -1,7 +1,6 @@
-
 * {
-  color: rgb(40,40,40);
-  font-family: 'Open Sans', sans-serif;
+  color: rgb(40, 40, 40);
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
 
@@ -11,15 +10,16 @@ body {
 
 nav {
   width: 100%;
- 
-
-
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  max-height: 200px;
 }
 
-h1, h3 {
-  font-family: 'Lato', sans-serif;
+h1,
+h3 {
+  font-family: "Lato", sans-serif;
 }
-
 
 ul {
   display: flex;
@@ -27,20 +27,34 @@ ul {
   list-style-type: none;
   padding-right: 3rem;
   margin: 0 auto;
-  background:rgb(151,	167,	233);
+  background: rgb(151, 167, 233);
+}
+
+a:hover {
+  color: white;
 }
 
 li {
   padding: 1.8rem;
-
 }
 
-.home, .about, .portfolio, .contact {
+.home,
+.about,
+.portfolio,
+.contact {
   height: 100vh;
   width: 100%;
   padding: 1.8rem;
+  display: flex;
 }
 
 .home {
-  background:rgb(151,	167,	233);  
+  background: rgb(151, 167, 233);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__about {
+  align-self: center;
 }
