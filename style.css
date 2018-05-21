@@ -74,6 +74,13 @@ li {
   align-items: baseline;
 }
 
+.icon {
+  height: 2rem;
+}
+
+.about {
+  color: rgb(27, 29, 36) !important;
+}
 .portfolio {
   display: flex;
   justify-content: space-evenly;
