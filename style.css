@@ -63,24 +63,20 @@ li {
   text-align: center;
   margin: 0 auto;
 }
-
 .home__about {
   text-align: center;
 }
-
 .social__icons {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
+  justify-content: space-between;
+  background: red;
 }
 
 .icon {
-  height: 2rem;
+  height: 32px;
+  width: 32px;
 }
 
-.about {
-  color: rgb(27, 29, 36) !important;
-}
 .portfolio {
   display: flex;
   justify-content: space-evenly;
