@@ -66,8 +66,25 @@ li {
   background-color: rgb(221, 124, 192);
 }
 
+.about h3 {
+  text-align: left;
+}
+
 .about__text {
   padding: 0 1.8rem 0 1.8rem;
+}
+
+.about__skills__cont {
+  display: flex;
+}
+
+.about__skills {
+  background-color: inherit;
+  display: block;
+}
+
+.about li {
+  margin-top: 0;
 }
 
 .icon {
