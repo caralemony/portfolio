@@ -1,5 +1,5 @@
 * {
-  color: rgb(40, 40, 40);
+  color: white;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
@@ -27,11 +27,11 @@ ul {
   list-style-type: none;
   padding-right: 3rem;
   margin: 0 auto;
-  background: rgb(151, 167, 233);
+  background: rgb(27, 29, 36);
 }
 
 a:hover {
-  color: white;
+  color: rgb(192, 98, 164);
 }
 
 li {
@@ -40,21 +40,27 @@ li {
 
 .home,
 .about,
-.portfolio,
-.contact {
+.portfolio {
   height: 100vh;
   width: 100%;
   display: flex;
 }
 
 .home {
-  background: rgb(151, 167, 233);
+  background: rgb(27, 29, 36);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin: 0 auto;
 }
 
 .home__about {
-  align-self: center;
+  text-align: center;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
