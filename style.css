@@ -1,6 +1,6 @@
 * {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Anonymous Pro", monospace;
   text-decoration: none;
 }
 
@@ -15,12 +15,10 @@ nav {
 }
 
 h1 {
-  font-family: "Anonymous Pro", monospace;
   letter-spacing: 1px;
   font-size: 2rem;
 }
 h3 {
-  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -42,6 +40,15 @@ li {
   padding: 1.8rem;
 }
 
+.home {
+  background: rgb(27, 29, 36);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .home,
 .about,
 .portfolio {
@@ -55,31 +62,23 @@ li {
   padding-top: 5rem;
 }
 
-.home {
-  background: rgb(27, 29, 36);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
+.about {
+  background-color: rgb(221, 124, 192);
 }
-.home__about {
-  text-align: center;
-}
-.social__icons {
-  display: flex;
-  justify-content: space-between;
-  background: red;
+
+.about__text {
+  padding: 0 1.8rem 0 1.8rem;
 }
 
 .icon {
   height: 32px;
   width: 32px;
+  margin: 0 1.8rem 0 1.8rem;
 }
 
 .portfolio {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background: rgb(27, 29, 36);
 }
 
@@ -87,5 +86,13 @@ li {
   height: 30rem;
 }
 
-.portfolio__item {
+.portfolio__item__set {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: right;
+  background: rgb(27, 29, 36);
+  padding: 2rem;
 }
