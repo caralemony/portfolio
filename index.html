@@ -6,6 +6,7 @@
   <meta lang="en">
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Anonymous+Pro" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./assets/valentines-heart.png" />
   <title>Caroline Appleby</title>
 </head>
 
@@ -20,9 +21,6 @@
       </li>
       <li>
         <a href="#portfolio">Projects</li>
-      <li>
-        <a href="#contact">CV</a>
-      </li>
     </ul>
   </nav>
   <section class="home" id="home">
@@ -32,37 +30,73 @@
       <h3>Web Developer</h3>
       <div class="social__icons">
         <a href="https://github.com/caralemony">
-          <img class="icon" src="./assets/github.png">
-        </a>
-        <a href="https://www.linkedin.com/in/caroline-appleby-a92479ba/">
-          <img class="icon" src="./assets/linkedin.png">
+          <img class="icon" src="./assets/github.svg">
         </a>
         <a href="https://twitter.com/CaraLemony">
-          <img class="icon" src="./assets/twitter.png">
+          <img class="icon" src="./assets/twitter.svg">
+        </a>
+        <a href="https://www.linkedin.com/in/caroline-appleby-a92479ba/">
+          <img class="icon" src="./assets/linkedin.svg">
         </a>
       </div>
     </div>
   </section>
   <section class="about" id="about">
-    <h4>About Me</h4>
-    <p>blurb</p>
-    <div class="skills" id="skills">
-      <p>HTML5, CSS3, Javascript, Node.js, PostgreSQL, Git, Heroku....</p>
+    <div class="about__text">
+      <h3>About Me</h3>
+      <p>Hi there, my name is Caroline and I am a full stack web developer.</p>
+      <p>In the past year I have moved from ecommerce to coding, I am a proud Founders & Coders graduate and I am keen to keep
+        learning.
+      </p>
+      <br>
+      <h3>Skills</h3>
+      <div class="about__skills__cont">
+        <ul class="about__skills">
+          <li>+ Javascript</li>
+          <li>+ Node</li>
+          <li>+ React</li>
+          <li>+ Express</li>
+          <li>+ PostgreSQL</li>
+          <li>+ Styled Components</li>
+        </ul>
+        <ul class="about__skills">
+          <li>+ Git</li>
+          <li>+ Heroku</li>
+          <li>+ Accessibility</li>
+          <li>+ TDD</li>
+          <li>+ User Testing</li>
+          <li>+ Continuous Integration</li>
+        </ul>
+      </div>
     </div>
+
+
   </section>
   <section class="portfolio" id="portfolio">
     <div class="portfolio__item">
-      <h3>UpShop</h3>
-      <img class="portfolio__img" src="./assets/upsres.png">
-      <img class="portfolio__img" src="./assets/upsdetails.png">
+      <a href="https://github.com/fac-12/upShop">
+        <h3>UpShop</h3>
+        <div class="portfolio__item__set">
+          <img class="portfolio__img" src="./assets/upsres.png">
+          <img class="portfolio__img" src="./assets/upsdetails.png">
+        </div>
+        <p>A mobile first shopping app to help users support local businesses</p>
+        <p>Stack: Node, Handlebards, PostgreSQL, SASS, Leaflet</p>
+      </a>
     </div>
     <div class="portfolio__item">
-      <h3>Lambeth Larder</h3>
-      <img class="portfolio__img" src="./assets/llresview.png">
-      <img class="portfolio__img" src="./assets/lldetailsview.png">
+      <a href="https://github.com/caralemony/lambeth-larder">
+        <h3>Lambeth Larder</h3>
+        <div class="portfolio__item__set">
+          <img class="portfolio__img" src="./assets/llresview.png">
+          <img class="portfolio__img" src="./assets/lldetailsview.png">
+        </div>
+        <p>A client project to help people get access to emergency food resources</p>
+        <p>Stack: Node, React, Airtable, Styled Components</p>
+      </a>
     </div>
   </section>
 </body>
-<footer>Something in here maybe</footer>
+<footer>Say hello carolinelappleby@gmail.com</footer>
 
 </html>
